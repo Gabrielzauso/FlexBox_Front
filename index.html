@@ -1,0 +1,292 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>FlexBox</title>
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/logo.png" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">                    
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                    </ul>
+                </nav>                
+            </div>
+        </div>
+    </header>
+
+    <section id="banner"> 
+        <div class="container column">
+            <div class="banner_headline">
+            <h1>Top notch experience</h1>
+            <h2>Medicente is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+            <div class="banner1">
+                <div class="banner_title">Emergency Case</div>
+                <div class="banner_desc">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+                <a href="">Read more</a>
+            </div>
+            <div class="banner2">
+                <div class="banner_title">Doctors Timetable</div>
+                <div class="banner_desc">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+                <a href="">Read more</a>
+            </div>
+            <div class="banner3">
+                <div class="banner_title">Opening Hours</div>
+                <div class="banner_date">Monday - Friday<div class="hour" >8:00 - 17:00</div></div>
+                <div class="banner_date">Saturday<div class="hour" >9:30 - 17:30</div></div>
+                <div class="banner_date">Sunday<div class="hour" >9:30 - 15:00</div></div>
+                
+            </div>
+        </div>   
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                       <article>
+                        <a href="">
+                        <div class="news_data">
+                            <div class="news_posted_at">12 DEC 12</div>
+                            <div class="news_comments">2</div>                            
+                        </div>
+                        <div class="news_thumb">
+                            <img src="assets/crianca-medico.png">
+                        </div>
+                        <div class="news_title">
+                            lotem ipsum solor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+
+                        </div>
+                        </a>
+                       </article>
+                       <article>
+                        <a href="">
+                        <div class="news_data">
+                            <div class="news_posted_at">12 DEC 12</div>
+                            <div class="news_comments">2</div>                            
+                        </div>
+                        <div class="news_thumb">
+                            <img src="assets/crianca-medico.png">
+                        </div>
+                        <div class="news_title">
+                            lotem ipsum solor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+
+                        </div>
+                        </a>
+                       </article>
+                       <article>
+                        <a href="">
+                        <div class="news_data">
+                            <div class="news_posted_at">12 DEC 12</div>
+                            <div class="news_comments">2</div>                            
+                        </div>
+                        <div class="news_thumb">
+                            <img src="assets/crianca-medico.png">
+                        </div>
+                        <div class="news_title">
+                            lotem ipsum solor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+
+                        </div>
+                        </a>
+                       </article>
+                       <article>
+                        <a href="">
+                        <div class="news_data">
+                            <div class="news_posted_at">12 DEC 12</div>
+                            <div class="news_comments">2</div>                            
+                        </div>
+                        <div class="news_thumb">
+                            <img src="assets/crianca-medico.png">
+                        </div>
+                        <div class="news_title">
+                            lotem ipsum solor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum,
+
+                        </div>
+                        </a>
+                       </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        ..
+                    </div>
+                </div>
+                    <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        ..
+                    </div>
+                </div>
+            </aside>            
+        </div>
+
+
+    </section>
+    
+    
+    
+    
+    
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <div class="title_fm">Health Insurance</div>
+                    <div class="subtitle_fm"><a href="#">Here in medicente we have individual</a><i></i></div>
+                </div>
+                <div class="fm_2">
+                    <div class="title_fm">Medical Records</div>
+                    <div class="subtitle_fm"><a href="#">Here in medicente we have individual</a><i></i></div>
+                </div>
+                <div class="fm_3">
+                    <div class="title_fm"> Online Bill</div>
+                    <div class="subtitle_fm"><a href="#">Here in medicente we have individual</a><i></i></div>
+                </div>
+                            
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="footer_title">
+                        <div class="footer_title_text">Madicenter Clinic</div>
+                        <div class="footer_title_bar"></div>
+                        <div class="footer_body">
+                        <div class="body1">
+                            lotem ipsum solor sit amat velum,
+                            lotem ipsum solor sit amat velum.
+                        </div>
+                        <div class="body_text">Medicenter Clinic</div>
+                            <div class="body_text">33 Farlane Street<div class="hour" >+123 655 655</div></div>
+                            <div class="body_text">Keilor East<div class="hour" >+123 755 755</div></div>
+                            <div class="body_text">VIC 3033, Australia<div class="info" >Medicenter@mail.com</div></div>                     
+                        
+                        </div>
+                        <div class="body3">
+                            <a href=""><i>1</i></a>
+                            <a href=""><i>1</i></a>
+                            <a href=""><i>1</i></a>
+                            <a href=""><i>1</i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer_areaitem">
+                    <div class="footer_title">
+                        <div class="footer_title_text">Latest Posts</div>
+                        <div class="footer_title_bar"></div>
+                    </div>
+                    <div class="footer_body">
+                        ...
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="footer_title">
+                        <div class="footer_title_text">Latest Tweets</div>
+                        <div class="footer_title_bar"></div>
+                    </div>
+                    <div class="footer_body">
+                        ...
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+
+                Copyright
+
+            </div>
+        </div>
+            
+        
+
+    </footer>
+    
+</body>
+</html>
